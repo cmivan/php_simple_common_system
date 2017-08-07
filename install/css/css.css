@@ -1,0 +1,44 @@
+/* install */
+html,body{scrollbar-face-color: #15A3D9;scrollbar-highlight-color: #555555;scrollbar-3dlight-color: #555555;scrollbar-darkshadow-color: #60B7DE;scrollbar-shadow-color: #555555;scrollbar-arrow-color: #FFFFFF;scrollbar-track-color: #A4D6EA;}
+body {margin:0px;background-color: #DEE7F7;}
+body,tr,td{font-family: "宋体";font-size:12px;color:#FFE9C5;}
+form{
+margin:0;}
+
+
+#error_a{width:100%;height:500px;}
+#error_p{
+	margin:30px auto;
+	padding: 0px;
+	width: 320px;
+}
+#error_y{
+	margin:30px auto;
+	width:320px;
+	text-align: center;
+}
+#error_a_a{
+	width:500px;
+	border:8px solid #000000;
+	margin:60px auto 0px;
+	background-color:#353535;
+	padding: 10px;
+}
+#error_ok{
+	width:308px;
+	margin:5px auto;
+	border:1px solid #000000;
+	padding: 5px;
+	;
+}
+#op{ width:320px; height:50px; margin:5px auto 0px;; text-align:center; border:0px solid #006699; border-bottom:0px;}
+#op img{
+border:0px;}
+
+#see{ width:320px; height:40px; margin:auto;}
+#table{font-size:14px;border-collapse:collapse;font-family:"宋体";color:#333333;margin:10px auto;}
+/* 留言标题 */
+#table #thead{height:20px;background-color:#181818;border:2px solid #000000;}
+.ttl{border:1px solid #000000;padding:2px;}
+.tbl{border:1px solid #000000;padding:0px 5px 0px;word-break: break-all;overflow:hidden}
+.textinput{border-color:#0099CC;border:1px solid #000000;background-color:#DEE7F7;width:190px;height:15px;}

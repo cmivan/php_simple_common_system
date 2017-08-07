@@ -1,0 +1,42 @@
+-------------createphp.php------------
+
+<?php 
+
+$array = array(array('这里是标题','这里是内容'),array('这里又是一个标题','这里又是一个内容')) ;//这里的数组可以是从数据库中查询得到的内容，也可以是像现在这样的直接赋值的数组。
+
+ 
+
+//对每一个数据元素做以下处理
+
+foreach($array as $id=>$val){
+
+$title = $val[0] ;
+
+$content = $val[1] ;
+
+$path = $id.'.htm' ;//以当前操作的文件的id作为后面要生成的HTML文件的名称
+
+$fp = fopen("php.html","r") ;//以只读方式打开模版
+
+$str = fread($fp,filesize("php.html")) ;将模版页面内容读入字符串$str中
+
+$str = str_replace("{title}",$title,$str) ;
+
+$str = str_replace("{content}",$content,$str) ;
+
+fclose($fp) ;//替换模版中需要替换的内容，完成后关闭即可
+
+
+$handle = fopen($path,"w") ;//打开将要生成的文件
+
+fwrite($handle,$str) ;//将替换后的模版内容写入新页面中，即生成新的HTML页面
+
+fclose($handle) ;//关闭
+
+
+}
+
+echo "生成成功" ;
+
+?>
+

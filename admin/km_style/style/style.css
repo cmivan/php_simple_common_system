@@ -1,0 +1,221 @@
+/* CSS Document -- 卡米Company system */
+BODY {
+SCROLLBAR-FACE-COLOR:#666666;
+SCROLLBAR-HIGHLIGHT-COLOR: #000000; 
+SCROLLBAR-SHADOW-COLOR: #000000;
+SCROLLBAR-DARKSHADOW-COLOR: #000000; 
+SCROLLBAR-3DLIGHT-COLOR: #000000; 
+SCROLLBAR-ARROW-COLOR: #FFFFFF;
+SCROLLBAR-TRACK-COLOR: #000000; 
+    FONT-FAMILY: "宋体";
+    FONT-SIZE: 12px;
+    background:#C4D8ED;
+	color:#061D33;
+	margin:0;
+}
+
+form{
+margin:0;}
+TD {
+	FONT-SIZE: 12px;
+	color:#000000;
+	float: left;
+}
+INPUT {
+	border-color:black #ffffff #ffffff black; BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px
+}
+
+.code_img{
+	border-color:black #ffffff #ffffff black; BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px
+}
+
+.input_1 {
+	font-size: 9pt; 
+    font-style: normal; 
+    line-height: normal; 
+    font-weight: normal; 
+    font-variant: normal; 
+    
+    clip:  rect(   ); 
+    color: #000000; 
+    border-color:black #999999 #999999 black;
+    border-top-width: 1px;
+    border-right-width: 1px; 
+    border-bottom-width: 1px; 
+    border-left-width: 1px; 
+    background-color: #FFFFFF
+}
+
+TEXTAREA {
+	border-color: black #999999 #999999 black; BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px
+}
+SELECT {
+	border-color: black #999999 #999999 black; BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px
+}
+SPAN {
+	FONT-SIZE: 12px; POSITION: static
+}
+A:link {
+	COLOR: #464646; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #061D33; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #FF6600; TEXT-DECORATION: underline
+}
+
+.twidth {
+	WIDTH: 760px}
+.content {
+	FONT-SIZE: 14px; MARGIN: 5px 20px; LINE-HEIGHT: 140%; FONT-FAMILY: Tahoma,宋体
+}
+.aTitle {
+	color: #FF6600;
+}
+
+
+TD.forumRow {
+	border:1px #FFFFFF solid; background-color:#EEF7FD;
+	word-break:break-all;
+}
+TD.forumRow2 {
+	border:1px #FFFFFF solid;
+	word-break:break-all;
+}
+
+
+TD.forumRaw {
+	border-bottom: 1px #FFFFFF solid; border-top: 1px #FFFFFF solid; border-right: 1px #FFFFFF solid; background-color:#E4EDF9; line-height: 130%;
+word-break:break-all;	
+}
+TH {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; BACKGROUND-COLOR: #4455aa
+}
+
+.plen { border-bottom: 1px #FFFFFF solid; border-top: 1px #FFFFFF solid; background-color:#EEF7FD
+}
+.plan { border-bottom: 1px #FFFFFF solid; border-top: 1px #FFFFFF solid; border-right: 1px #FFFFFF solid; background-color:#EEF7FD
+}
+.plon { border-bottom: 1px #FFFFFF solid; border-top: 1px #FFFFFF solid; border-left: 1px #FFFFFF solid; background-color:#EEF7FD
+}
+TD.forumRowHighlight {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BACKGROUND: #E0EEF5; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.tableBorder {
+	WIDTH: 100%; BACKGROUND-COLOR: #E1ECF2
+}
+.tableBorder1 {WIDTH: 100%; }
+.helplink {
+	FONT: 10px verdana,arial,helvetica,sans-serif; CURSOR: help; TEXT-DECORATION: none
+}
+.copyright {
+	PADDING-RIGHT: 1px; BORDER-TOP: #6595d6 1px dashed; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; FONT: 11px verdana,arial,helvetica,sans-serif; COLOR: #4455aa; PADDING-TOP: 1px; TEXT-DECORATION: none
+}
+.indhot { color:#061D33; line-height: 150%;}
+.redtext {
+	color: #FF0000;
+}
+.greentext {
+	color: #CCCCCC;
+}
+.butext {
+	font-weight: bold;
+	text-decoration: underline;
+}
+.red { color:#FF3300 }
+
+
+.input_len{
+width:200px;}
+
+.MENU{
+padding-right:25px;}
+
+
+
+.MENU a{
+float:right;
+padding:5px;
+width:70px;
+height:20px;
+margin:2px;
+text-decoration:none;
+color:#999999;
+background-image:url(../IMAGES/menu_bg.gif);
+}
+
+.MENU A:visited {
+color:#999999;
+TEXT-DECORATION: none
+}
+
+.MENU a:hover{
+text-decoration:none;
+color:#FFFFFF;
+background-image:url(../IMAGES/menu_bg_over.gif);
+background-repeat:no-repeat;
+}
+
+
+
+/*==============后台样式====================*/
+.class_b_title{
+font-size:12px;
+color:#F90000;}
+.class_b_title span{
+color:#999999;}
+
+.class_s_title{
+	font-size:12px;
+	color:#707070;
+	padding-left: 3px;
+}
+.class_s_title span{
+color:#999999;}
+
+
+/*不显示行*/
+.disNone{
+display:none;}
+
+/*登陆框*/
+.login_input{
+width:135px;}
+
+/*内容管理分页*/
+#pageNav{}
+#pageNav .off{
+margin:2px;
+padding:3px;
+padding-bottom:0;
+padding-top:0;
+border:#E4EDF9 1px solid;
+height:16px;
+line-height:0;
+color:#FF6600;
+}
+#pageNav .off:hover{
+padding:3px;
+padding-bottom:0;
+padding-top:0;
+border:#666666 1px solid;
+border-bottom:1px solid #ffffff;
+border-right:1px solid #ffffff;
+height:16px;
+line-height:0;
+color:#FF6600;
+}
+
+#pageNav .on{
+padding:3px;
+padding-bottom:0;
+padding-top:0;
+border:#666666 1px solid;
+border-bottom:1px solid #ffffff;
+border-right:1px solid #ffffff;
+background-color:#FFFFFF;
+height:16px;
+line-height:0;
+color:#FF6600;
+}
